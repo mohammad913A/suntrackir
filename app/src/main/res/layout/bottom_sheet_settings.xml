@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="عرض جغرافیایی"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <EditText
+        android:id="@+id/editLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="طول جغرافیایی"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <Button
+        android:id="@+id/btnSaveCoordinates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ذخیره مختصات" />
+
+    <Button
+        android:id="@+id/btnGetGps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="دریافت از GPS" />
+
+</LinearLayout>
